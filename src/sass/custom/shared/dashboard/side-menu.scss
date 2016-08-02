@@ -139,18 +139,38 @@
 
 						li {
 							&.select-dropdown {
-								select {
-									border-radius: 0;
+								border: solid 1px $color-menu-items;
+								border-radius: 5px;
+								padding: $margin-input-small;
+								font-size: $font-size-menu-subpage;
+
+								.icon {
+									top: 0;
+								}
+								.submenu {
+
+									visibility: hidden;
+									opacity: 0;
+									display: none;
+
 									color: $color-shading-purple;
 									font-size: $font-size-button;
 									padding: $margin-input-small;
 
-									option {
-										color: $color-menu-items;
+									a {
+										text-overflow: ellipsis;
+										white-space: nowrap;
+										overflow: hidden;
 									}
-
 								}
-
+							}
+							&.select-dropdown:hover {
+								.submenu {
+									visibility: visible;
+									opacity: 1;
+									display: block;						
+								}
+							
 							}
 
 						}

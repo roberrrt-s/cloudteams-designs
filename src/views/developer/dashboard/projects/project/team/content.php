@@ -27,7 +27,7 @@
 		<?php include("member-new.php"); ?>
 
 		<?php include("member-picture.php"); ?>
-		<?php include("member-picture.php"); ?>
+		<?php include("member-no-picture.php"); ?>
 		<?php include("member-no-picture.php"); ?>
 		<?php include("member-picture.php"); ?>
 		<?php include("member-picture.php"); ?>

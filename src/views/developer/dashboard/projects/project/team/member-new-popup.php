@@ -25,7 +25,48 @@
 						<li id="link-to-subpage-2" class="link-to-subpage">Address book</li>
 						<li id="link-to-subpage-3" class="link-to-subpage">Search</li>
 					</ul>
-					<section id="subpage-1" class="subpage active">Hello</section>
+					<section id="subpage-1" class="subpage active">
+
+					<fieldset class="form-group required">
+						<label for="new-member-name" class="control-label header-medium secondary">New team member name </label>
+
+						<div class="input-container">
+							<input id="new-member-name" type="text" name="Name of new team member" placeholder="E.g. Rick Astley">
+						</div>
+					</fieldset>
+
+					<fieldset class="form-group required">
+						<label for="new-member-name" class="control-label header-medium secondary">New team member email </label>
+
+						<div class="input-container">
+							<input id="new-member-name" type="text" name="Email of new team member" placeholder="E.g. nevergonnagive@you.up">
+						</div>
+					</fieldset>
+
+					<fieldset class="form-group required">
+						<label for="new-member-name" class="control-label header-medium secondary">New team member role </label>
+
+						<div class="select-dropdown">
+							<i class="icon icon-arrow-down"></i>
+							<select name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
+								<option value="" disabled="" selected="">Member role</option>
+								<option value="front">Front-end Developer</option>
+								<option value="back">Back-end Developer</option>
+								<option value="manager">Project Manager</option>
+								<option value="content">Content Manager</option>
+								<option value="interaction">Interaction Designer</option>
+								<option value="visual">Visual Interface Designer</option>
+								<option value="marketing">Online Marketeer</option>
+							</select>
+						</div>
+					</fieldset>
+
+					<fieldset class="form-group form-submit">
+						<a href="" data-dismiss="modal" class="btn-transparent" alt="cancel">Skip</a>
+						<a href="" class="btn" alt="submit invite">Send invite</a>
+					</fieldset>
+
+					</section>
 					<section id="subpage-2" class="subpage">World</section>
 					<section id="subpage-3" class="subpage">!!!</section>			
 				</div>

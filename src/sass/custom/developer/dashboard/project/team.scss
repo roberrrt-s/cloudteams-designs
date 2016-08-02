@@ -180,6 +180,26 @@
 			li.active {
 				color: $color-text;
 			}
+
+			.subpage {
+				padding: $margin-10
+			}
+
+			.form-group.required .control-label:after {
+			  content: "*";
+			  color: #F00;
+			}
+
+			.form-submit {
+				text-align: right;
+			}
+
+			select {
+				option {
+					font-size: $font-size-header-medium;
+				}
+			}
+
 		}
 
 	}

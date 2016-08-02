@@ -32,6 +32,4 @@
 			</div>
 		</div>
 	</a>
-</article
->
-<?php include("member-popup.php"); ?>
+</article>

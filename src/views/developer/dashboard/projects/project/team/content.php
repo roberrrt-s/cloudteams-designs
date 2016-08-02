@@ -31,6 +31,10 @@
 		<?php include("member-no-picture.php"); ?>
 		<?php include("member-picture.php"); ?>
 		<?php include("member-picture.php"); ?>
+		<?php include("member-no-picture.php"); ?>
+
+		<?php include("member-popup.php"); ?>
+		<?php include("member-new-popup.php"); ?>
 
 	</div>
 </section>

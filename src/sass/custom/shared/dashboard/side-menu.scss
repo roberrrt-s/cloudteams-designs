@@ -149,13 +149,14 @@
 								}
 								.submenu {
 
+									transition: $transition-time-1;
 									visibility: hidden;
 									opacity: 0;
-									display: none;
+									height: 0;
+									padding: 0 $margin-input-small;
 
 									color: $color-shading-purple;
 									font-size: $font-size-button;
-									padding: $margin-input-small;
 
 									a {
 										text-overflow: ellipsis;
@@ -168,7 +169,8 @@
 								.submenu {
 									visibility: visible;
 									opacity: 1;
-									display: block;						
+									height: auto;
+									padding: $margin-input-small;									
 								}
 							
 							}

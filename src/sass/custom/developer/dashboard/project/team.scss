@@ -158,16 +158,28 @@
 
 	.modal.popup-team-member-add-new {
 
-		.modal-header {
-			text-align: center;
+		header.modal-header {
+			margin-bottom: 0;
 
+			.icon {
+				margin-top: 0;
+			}
 		}
 
 		.modal-body {
+			padding-top: 0;
+
 			.row {
 
 			}
 
+			ul {
+				padding: $margin-10;
+			}
+
+			li.active {
+				color: $color-text;
+			}
 		}
 
 	}

@@ -158,6 +158,7 @@
 
 	.modal.popup-team-member-add-new {
 
+
 		header.modal-header {
 			margin-bottom: 0;
 
@@ -182,7 +183,11 @@
 			}
 
 			.subpage {
-				padding: $margin-10
+				padding: $margin-10;
+			}
+
+			fieldset {
+				max-width: 80%;
 			}
 
 			.form-group.required .control-label:after {

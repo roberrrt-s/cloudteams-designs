@@ -106,12 +106,12 @@ import 'partials/AddItemDimensions';
 		const moreOptions = $('.open-tooltip-button');
 		const tooltips    = $('.custom-tooltip');
 
-		moreOptions.each((index, el) => {
-			el.attr('id', `open-tooltip-button-${index + 1}`);
+		moreOptions.each(function(index) {
+			$(this).attr('id', `open-tooltip-button-${index + 1}`);
 		});
 
-		tooltips.each((index, el) => {
-			el.attr('id', `custom-tooltip-${index + 1}`);
+		tooltips.each(function(index) {
+			$(this).attr('id', `custom-tooltip-${index + 1}`);
 		});
 
 		moreOptions.click(function(e) {

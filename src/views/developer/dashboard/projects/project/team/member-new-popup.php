@@ -2,7 +2,7 @@
 <div id="new" class="popup-team-member-add-new modal fade" role="dialog">
 	<a href="#nowhere"></a>
 
-	<div class="modal-dialog small">
+	<div class="modal-dialog">
 
 		<!-- Modal content-->
 		<div class="block block-fill">

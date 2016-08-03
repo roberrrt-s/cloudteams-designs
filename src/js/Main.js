@@ -116,7 +116,6 @@ import 'partials/AddItemDimensions';
 
 		moreOptions.click(function(e) {
 			e.preventDefault();
-
 			openCloseTooltip($(this));
 		});
 	}

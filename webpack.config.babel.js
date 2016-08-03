@@ -7,6 +7,8 @@ module.exports = (function() {
 	const PathRewriterPlugin   = require('webpack-path-rewriter');
 	const ChildProcess         = require('child_process');
 	const Path                 = require('path');
+	const BrowserSyncPlugin    = require('browser-sync-webpack-plugin');
+
 	// const CopyWebpackPlugin    = require('copy-webpack-plugin');
 	// const PurifyPlugin         = require('purifycss-webpack-plugin');
 	const packageInformation   = require('./package.json');
@@ -156,6 +158,18 @@ module.exports = (function() {
 				alias     : {}
 			},
 			plugins: [
+
+				new BrowserSyncPlugin(
+					{
+						host : 'localhost',
+						port : 3000,
+						proxy: 'http://localhost:80/'
+					},
+					{
+						reload: true
+					}
+				),
+
 				new Webpack.optimize.DedupePlugin(),
 
 				new Webpack.OldWatchingPlugin(),

@@ -111,6 +111,10 @@
 
 	}
 
+	.modal-dialog.medium {
+		min-width: 800px;
+	}
+
 	.modal.popup-team-member-full-profile {
 		.modal-header {
 			text-align: center;
@@ -187,6 +191,7 @@
 			}
 
 			fieldset {
+				max-width: 60%;
 				padding: 0 $margin-10;
 			}
 
@@ -202,6 +207,28 @@
 			select {
 				option {
 					font-size: $font-size-header-medium;
+				}
+			}
+
+			.team-member-invite {
+				.img-circle {
+					width: 50px;
+					height: 50px;
+				}
+
+				.middle {
+					padding: $margin-block;
+					padding-top: 0;
+				}
+				.member-name {
+					width: 200px;
+					max-width: 200px;
+
+					h2 {
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						overflow: hidden;
+					}
 				}
 			}
 

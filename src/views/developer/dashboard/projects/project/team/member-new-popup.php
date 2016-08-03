@@ -2,7 +2,7 @@
 <div id="new" class="popup-team-member-add-new modal fade" role="dialog">
 	<a href="#nowhere"></a>
 
-	<div class="modal-dialog">
+	<div class="modal-dialog medium">
 
 		<!-- Modal content-->
 		<div class="block block-fill">
@@ -70,19 +70,136 @@
 
 					<section id="subpage-2" class="subpage">
 						<div class="row">
-
 							<section class="team-member-invite">
-							<div class="vertical-align">
-								<div class="middle">
-									Helloo
-								</div>
+								<div class="vertical-align">
+									<div class="middle">
+										<div class="img-circle" style='background-image: url("[[../../../../../../img/profile-picture-small.jpg]]")'></div>
+									</div>
 
-								<div class="middle">
-									World
+									<div class="middle member-name">
+										<h2 class="header-medium secondary">Elly Borough</h2>
+									</div>
+
+									<div class="middle">
+										<div class="select-dropdown">
+											<i class="icon icon-arrow-down"></i>
+											<select name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
+												<option value="" disabled="" selected="">Member role</option>
+												<option value="front">Front-end Developer</option>
+												<option value="back">Back-end Developer</option>
+												<option value="manager">Project Manager</option>
+												<option value="content">Content Manager</option>
+												<option value="interaction">Interaction Designer</option>
+												<option value="visual">Visual Interface Designer</option>
+												<option value="marketing">Online Marketeer</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="middle">
+										<a href="" class="btn" alt="submit invite">Send invite</a>
+									</div>
 								</div>
-							</div>
 							</section>
+						</div>
+						<div class="row">
+							<section class="team-member-invite">
+								<div class="vertical-align">
+									<div class="middle">
+										<div class="img-circle" style='background-image: url("[[../../../../../../img/profile-picture-small.jpg]]")'></div>
+									</div>
 
+									<div class="middle member-name">
+										<h2 class="header-medium secondary">Bob Davids</h2>
+									</div>
+
+									<div class="middle">
+										<div class="select-dropdown">
+											<i class="icon icon-arrow-down"></i>
+											<select name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
+												<option value="" disabled="" selected="">Member role</option>
+												<option value="front">Front-end Developer</option>
+												<option value="back">Back-end Developer</option>
+												<option value="manager">Project Manager</option>
+												<option value="content">Content Manager</option>
+												<option value="interaction">Interaction Designer</option>
+												<option value="visual">Visual Interface Designer</option>
+												<option value="marketing">Online Marketeer</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="middle">
+										<a href="" class="btn" alt="submit invite">Send invite</a>
+									</div>
+								</div>
+							</section>
+						</div>
+						<div class="row">
+							<section class="team-member-invite">
+								<div class="vertical-align">
+									<div class="middle">
+										<div class="img-circle" style='background-image: url("[[../../../../../../img/profile-picture-small.jpg]]")'></div>
+									</div>
+
+									<div class="middle member-name">
+										<h2 class="header-medium secondary">David Hamilton</h2>
+									</div>
+
+									<div class="middle">
+										<div class="select-dropdown">
+											<i class="icon icon-arrow-down"></i>
+											<select name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
+												<option value="" disabled="" selected="">Member role</option>
+												<option value="front">Front-end Developer</option>
+												<option value="back">Back-end Developer</option>
+												<option value="manager">Project Manager</option>
+												<option value="content">Content Manager</option>
+												<option value="interaction">Interaction Designer</option>
+												<option value="visual">Visual Interface Designer</option>
+												<option value="marketing">Online Marketeer</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="middle">
+										<a href="" class="btn" alt="submit invite">Send invite</a>
+									</div>
+								</div>
+							</section>
+						</div>
+						<div class="row">
+							<section class="team-member-invite">
+								<div class="vertical-align">
+									<div class="middle">
+										<div class="img-circle" style='background-image: url("[[../../../../../../img/profile-picture-small.jpg]]")'></div>
+									</div>
+
+									<div class="middle member-name">
+										<h2 class="header-medium secondary">Helena van der Bergen</h2>
+									</div>
+
+									<div class="middle">
+										<div class="select-dropdown">
+											<i class="icon icon-arrow-down"></i>
+											<select name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
+												<option value="" disabled="" selected="">Member role</option>
+												<option value="front">Front-end Developer</option>
+												<option value="back">Back-end Developer</option>
+												<option value="manager">Project Manager</option>
+												<option value="content">Content Manager</option>
+												<option value="interaction">Interaction Designer</option>
+												<option value="visual">Visual Interface Designer</option>
+												<option value="marketing">Online Marketeer</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="middle">
+										<a href="" class="btn" alt="submit invite">Send invite</a>
+									</div>
+								</div>
+							</section>
 						</div>
 					</section>
 

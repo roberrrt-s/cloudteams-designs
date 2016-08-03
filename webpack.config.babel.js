@@ -53,6 +53,7 @@ module.exports = (function() {
 				query[key] = merge[key];
 			});
 		}
+
 		return type + '?' + JSON.stringify(query);
 	}
 
@@ -62,6 +63,7 @@ module.exports = (function() {
 
 	function getBuildDate() {
 		const date = new Date();
+
 		return [date.getDate(), (date.getMonth() + 1), date.getFullYear()].join('-');
 	}
 
@@ -69,6 +71,7 @@ module.exports = (function() {
 		if (packageUserInformation.OS && packageUserInformation.OS === 'windows') {
 			return path.replace(/\//g, '\\');
 		}
+
 		return path;
 	}
 

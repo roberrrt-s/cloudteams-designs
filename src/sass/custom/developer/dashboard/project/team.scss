@@ -174,8 +174,11 @@
 		.modal-body {
 			padding-top: 0;
 
-			.row {
-
+			.menu-subpage {
+				padding-bottom: 0;
+				+ hr {
+					margin-top: 0;
+				}
 			}
 
 			ul {
@@ -191,9 +194,18 @@
 			}
 
 			fieldset {
+				+ hr {
+					// Dirty, look at it later
+					min-width: 800px;
+					margin-left: -10px;
+				}
+			}
+
+			fieldset:not(.form-submit) {
 				max-width: 60%;
 				padding: 0 $margin-10;
 			}
+
 
 			.form-group.required .control-label:after {
 			  content: "*";
@@ -204,10 +216,20 @@
 				text-align: right;
 			}
 
+			.search-member-container {
+				min-width: 602px;
+				margin-right: $margin-20;
+			}
+
 			select {
 				option {
 					font-size: $font-size-header-medium;
 				}
+			}
+
+			.load-more {
+				text-align: center;
+				color: $color-action-text;
 			}
 
 			.team-member-invite {

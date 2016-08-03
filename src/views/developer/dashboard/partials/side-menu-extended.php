@@ -39,19 +39,6 @@
 
 				<ul class="side-menu-extended">
 
-					<!--
-					<li class="select-dropdown hide-minimized">
-						<i class="icon icon-arrow-down"></i>
-						<select class="projects-dropdown">
-							<option value="Project 1" selected>Hooray</option>
-							<option value="Project 1">Project 2</option>
-							<option value="Project 1">Project 3</option>
-							<option value="Project 1">Project 4</option>
-							<option value="Project 1">Project 5</option>
-						</select>
-					</li>
-					-->
-
 					<li class="select-dropdown hide-minimized">
 						<a href="#nowhere">
 							Current Project

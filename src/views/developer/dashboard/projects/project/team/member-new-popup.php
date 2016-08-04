@@ -1,8 +1,8 @@
 <!-- Pop-up modal: team member add user -->
-<div id="new" class="popup-team-member-add-new modal fade" role="dialog">
+<div class="popup-team-member-add-new modal fade" role="dialog">
 	<a href="#nowhere"></a>
 
-	<div class="modal-dialog medium">
+	<div id="new-team-member" class="modal-dialog medium">
 
 		<!-- Modal content-->
 		<div class="block block-fill">
@@ -65,8 +65,8 @@
 						<hr>
 
 						<fieldset class="form-group form-submit">
-							<a href="" data-dismiss="modal" class="btn-transparent" alt="cancel">Skip</a>
-							<a href="" class="btn" alt="submit invite">Send invite</a>
+							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Skip</a>
+							<a href="#nowhere" class="btn confirm-button" alt="submit invite">Send invite</a>
 						</fieldset>
 
 					</section>

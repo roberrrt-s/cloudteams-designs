@@ -27,7 +27,7 @@ module.exports = (function() {
 		'developer/dashboard/customer-ideas'   : './js/developer/dashboard/CustomerIdeas.js',
 		'developer/dashboard/messages'         : './js/developer/dashboard/Messages.js',
 		'developer/dashboard/campaign-overview': './js/developer/dashboard/CampaignOverview.js',
-		'developer/dashboard/campaign-create'  : './js/developer/dashboard/CampaignCreate.js',
+		'developer/dashboard/team'             : './js/developer/dashboard/Team.js',
 		'user/dashboard/projects'              : './js/user/dashboard/Projects.js',
 		'public/project'                       : './js/public/Project.js',
 		'shared/loaders'                       : './js/shared/Loaders.js'

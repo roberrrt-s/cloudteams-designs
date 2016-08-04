@@ -146,7 +146,6 @@ import 'partials/AddItemDimensions';
 	}
 
 	function start() {
-		// Svg.run();
 		runOpenCloseSubpage();
 		runOpenCloseSubsection();
 		moveProgressBar();

@@ -193,6 +193,14 @@
 				padding: $margin-10;
 			}
 
+			.pop-up {
+				text-align: center;
+
+				i {
+					color: $color-button 
+				}
+			}
+
 			fieldset {
 				+ hr {
 					// Dirty, look at it later

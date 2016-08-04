@@ -27,48 +27,66 @@
 					</ul>
 					<hr>
 					<section id="subpage-1" class="subpage active">
+						<div class="subpage-wrapper">
+							<fieldset class="form-group required">
+								<label for="new-member-name" class="control-label header-medium secondary">New team member name </label>
 
-						<fieldset class="form-group required">
-							<label for="new-member-name" class="control-label header-medium secondary">New team member name </label>
+								<div class="input-container">
+									<input id="new-member-name" type="text" name="Name of new team member" placeholder="E.g. Rick Astley">
+								</div>
+							</fieldset>
 
-							<div class="input-container">
-								<input id="new-member-name" type="text" name="Name of new team member" placeholder="E.g. Rick Astley">
+							<fieldset class="form-group required">
+								<label for="new-member-name" class="control-label header-medium secondary">New team member email </label>
+
+								<div class="input-container">
+									<input id="new-member-name" type="text" name="Email of new team member" placeholder="E.g. nevergonnagive@you.up">
+								</div>
+							</fieldset>
+
+							<fieldset class="form-group required">
+								<label for="new-member-name" class="control-label header-medium secondary">New team member role </label>
+
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
+										<option value="" disabled="" selected="">Member role</option>
+										<option value="front">Front-end Developer</option>
+										<option value="back">Back-end Developer</option>
+										<option value="manager">Project Manager</option>
+										<option value="content">Content Manager</option>
+										<option value="interaction">Interaction Designer</option>
+										<option value="visual">Visual Interface Designer</option>
+										<option value="marketing">Online Marketeer</option>
+									</select>
+								</div>
+							</fieldset>
+
+							<hr>
+
+							<fieldset class="form-group form-submit">
+								<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Skip</a>
+								<a href="#nowhere" class="btn confirm-button" alt="submit invite">Send invite</a>
+							</fieldset>
+
+							<div class="pop-up sending-wrapper" style='display: none;'>
+								<div class="vertical-align">
+									<div class="middle">
+										<i class="icon icon-team"></i>
+										<p class="meta big">Sending your invitation</p>
+									</div>
+								</div>
 							</div>
-						</fieldset>
 
-						<fieldset class="form-group required">
-							<label for="new-member-name" class="control-label header-medium secondary">New team member email </label>
-
-							<div class="input-container">
-								<input id="new-member-name" type="text" name="Email of new team member" placeholder="E.g. nevergonnagive@you.up">
-							</div>
-						</fieldset>
-
-						<fieldset class="form-group required">
-							<label for="new-member-name" class="control-label header-medium secondary">New team member role </label>
-
-							<div class="select-dropdown">
-								<i class="icon icon-arrow-down"></i>
-								<select name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
-									<option value="" disabled="" selected="">Member role</option>
-									<option value="front">Front-end Developer</option>
-									<option value="back">Back-end Developer</option>
-									<option value="manager">Project Manager</option>
-									<option value="content">Content Manager</option>
-									<option value="interaction">Interaction Designer</option>
-									<option value="visual">Visual Interface Designer</option>
-									<option value="marketing">Online Marketeer</option>
-								</select>
-							</div>
-						</fieldset>
-
-						<hr>
-
-						<fieldset class="form-group form-submit">
-							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Skip</a>
-							<a href="#nowhere" class="btn confirm-button" alt="submit invite">Send invite</a>
-						</fieldset>
-
+							<div class="pop-up confirm-wrapper" style='display: none;'>
+								<div class="vertical-align">
+									<div class="middle">
+										<i class="icon icon-check"></i>
+										<p class="meta big">Your invite has been send</p>
+									</div>
+								</div>
+							</div>								
+						</div>
 					</section>
 
 					<section id="subpage-2" class="subpage">
@@ -100,7 +118,7 @@
 									</div>
 
 									<div class="middle">
-										<a href="" class="btn" alt="submit invite">Send invite</a>
+										<a href="#nowhere" class="btn invite-button" alt="submit invite">Send invite</a>
 									</div>
 								</div>
 							</section>
@@ -133,7 +151,7 @@
 									</div>
 
 									<div class="middle">
-										<a href="" class="btn" alt="submit invite">Send invite</a>
+										<a href="" class="btn invite-button" alt="submit invite">Send invite</a>
 									</div>
 								</div>
 							</section>
@@ -166,7 +184,7 @@
 									</div>
 
 									<div class="middle">
-										<a href="" class="btn" alt="submit invite">Send invite</a>
+										<a href="" class="btn invite-button" alt="submit invite">Send invite</a>
 									</div>
 								</div>
 							</section>
@@ -199,7 +217,7 @@
 									</div>
 
 									<div class="middle">
-										<a href="" class="btn" alt="submit invite">Send invite</a>
+										<a href="" class="btn invite-button" alt="submit invite">Send invite</a>
 									</div>
 								</div>
 							</section>
@@ -258,7 +276,7 @@
 									</div>
 
 									<div class="middle">
-										<a href="" class="btn" alt="submit invite">Send invite</a>
+										<a href="" class="btn invite-button" alt="submit invite">Send invite</a>
 									</div>
 								</div>
 							</section>
@@ -291,7 +309,7 @@
 									</div>
 
 									<div class="middle">
-										<a href="" class="btn" alt="submit invite">Send invite</a>
+										<a href="" class="btn invite-button" alt="submit invite">Send invite</a>
 									</div>
 								</div>
 							</section>

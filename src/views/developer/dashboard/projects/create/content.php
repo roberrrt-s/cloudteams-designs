@@ -2,204 +2,61 @@
 	<article class="block-line large">
 		<div class="content form-section">
 			<fieldset>
-				<label for="name-project" class="header-medium secondary">Name of the project</label>
+				<label for="name-project" class="header-medium secondary">Name</label>
 
 				<div class="input-container">
-					<input id="name-project" type="text" name="Name of project" placeholder="E.g. new promotional video">
+					<input id="name-project" type="text" name="Name of project" placeholder="Project title">
 				</div>
 			</fieldset>
 
 			<fieldset>
-				<label for="about-project" class="header-medium secondary">Add project description text</label>
+				<label for="description-project" class="header-medium secondary">Description</label>
 
 				<div class="input-container">
-					<textarea id="about-project" rows="7" placeholder="What is the project about?"></textarea>
+					<textarea id="description-project" rows="5" placeholder="Project description"></textarea>
 				</div>
 			</fieldset>
 
 			<fieldset>
-				<label for="author-project" class="header-medium secondary">Main author of the project</label>
 
-				<div class="input-container">
-					<input id="author-project" type="text" name="Main author of the project" placeholder="Jack Johnson">
+				<label for="category-project" class="header-medium secondary">Category</label>
+
+				<div class="select-dropdown">
+					<i class="icon icon-arrow-down"></i>
+					<select name="category-project" id="category-project" onchange="" size="1">
+						<option value="" disabled="" selected="">Select category</option>
+						<option value="Art">Art</option>
+						<option value="Business">Business</option>
+						<option value="Design">Design</option>
+						<option value="Film">Film</option>
+						<option value="Food">Food</option>
+						<option value="Games">Games</option>
+						<option value="Journalism">Journalism</option>
+						<option value="Music">Music</option>
+						<option value="Photography">Photography</option>
+						<option value="Publishing">Publishing</option>
+						<option value="Technology">Technology</option>
+						<option value="Sport">Sport</option>
+					</select>
 				</div>
 			</fieldset>
 
-			<fieldset class="time-frame">
-				<label class="header-medium secondary">Select a time frame</label>
+			<fieldset>
 
-				<div class="row">
-					<div class="col-sm-2">
-						<label for="project-start-year">Start:</label>
-					</div>
+				<label for="type-project" class="header-medium secondary">Type</label>
 
-					<div class="col-sm-10">
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="project-start-year" id="project-start-year" onchange="" size="1">
-										<option value="" disabled="" selected="">Year</option>
-										<option value="2006">2016</option>
-										<option value="2005">2017</option>
-										<option value="2004">2018</option>
-										<option value="2003">2019</option>
-										<option value="2002">2020</option>
-										<option value="2002">2021</option>
-									</select>
-								</div>
-							</div>
-
-							<div class="col-sm-4">
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="month" id="month" onchange="" size="1">
-										<option value="" disabled="" selected="">Month</option>
-										<option value="1">January</option>
-										<option value="2">February</option>
-										<option value="3">March</option>
-										<option value="4">April</option>
-										<option value="5">May</option>
-										<option value="6">June</option>
-										<option value="7">July</option>
-										<option value="8">August</option>
-										<option value="9">September</option>
-										<option value="10">October</option>
-										<option value="11">November</option>
-										<option value="12">December</option>
-									</select>
-								</div>
-							</div>
-
-							<div class="col-sm-4">
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="day" id="day" onchange="" size="1">
-										<option value="" disabled="" selected="">Day</option>
-										<option value="01">1</option>
-										<option value="02">2</option>
-										<option value="03">3</option>
-										<option value="04">4</option>
-										<option value="05">5</option>
-										<option value="06">6</option>
-										<option value="07">7</option>
-										<option value="08">8</option>
-										<option value="09">9</option>
-										<option value="10">10</option>
-										<option value="11">11</option>
-										<option value="12">12</option>
-										<option value="13">13</option>
-										<option value="14">14</option>
-										<option value="15">15</option>
-										<option value="16">16</option>
-										<option value="17">17</option>
-										<option value="18">18</option>
-										<option value="19">19</option>
-										<option value="20">20</option>
-										<option value="21">21</option>
-										<option value="22">22</option>
-										<option value="23">23</option>
-										<option value="24">24</option>
-										<option value="25">25</option>
-										<option value="26">26</option>
-										<option value="27">27</option>
-										<option value="28">28</option>
-										<option value="29">29</option>
-										<option value="30">30</option>
-										<option value="31">31</option>
-									</select>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-sm-2">
-						<label for="project-end-year">End:</label>
-					</div>
-
-					<div class="col-sm-10">
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="project-end-year" id="project-end-year" onchange="" size="1">
-										<option value="" disabled="" selected="">Year</option>
-										<option value="2006">2016</option>
-										<option value="2005">2017</option>
-										<option value="2004">2018</option>
-										<option value="2003">2019</option>
-										<option value="2002">2020</option>
-										<option value="2002">2021</option>
-									</select>
-								</div>
-							</div>
-
-							<div class="col-sm-4">
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="month" id="month" onchange="" size="1">
-										<option value="" disabled="" selected="">Month</option>
-										<option value="1">January</option>
-										<option value="2">February</option>
-										<option value="3">March</option>
-										<option value="4">April</option>
-										<option value="5">May</option>
-										<option value="6">June</option>
-										<option value="7">July</option>
-										<option value="8">August</option>
-										<option value="9">September</option>
-										<option value="10">October</option>
-										<option value="11">November</option>
-										<option value="12">December</option>
-									</select>
-								</div>
-							</div>
-
-							<div class="col-sm-4">
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="day" id="day" onchange="" size="1">
-										<option value="" disabled="" selected="">Day</option>
-										<option value="01">1</option>
-										<option value="02">2</option>
-										<option value="03">3</option>
-										<option value="04">4</option>
-										<option value="05">5</option>
-										<option value="06">6</option>
-										<option value="07">7</option>
-										<option value="08">8</option>
-										<option value="09">9</option>
-										<option value="10">10</option>
-										<option value="11">11</option>
-										<option value="12">12</option>
-										<option value="13">13</option>
-										<option value="14">14</option>
-										<option value="15">15</option>
-										<option value="16">16</option>
-										<option value="17">17</option>
-										<option value="18">18</option>
-										<option value="19">19</option>
-										<option value="20">20</option>
-										<option value="21">21</option>
-										<option value="22">22</option>
-										<option value="23">23</option>
-										<option value="24">24</option>
-										<option value="25">25</option>
-										<option value="26">26</option>
-										<option value="27">27</option>
-										<option value="28">28</option>
-										<option value="29">29</option>
-										<option value="30">30</option>
-										<option value="31">31</option>
-									</select>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="select-dropdown">
+					<i class="icon icon-arrow-down"></i>
+					<select name="type-project" id="type-project" onchange="" size="1">
+						<option value="" disabled="" selected="">Select a type</option>
+						<option value="App">App</option>
+						<option value="Web Application">Web Application</option>
+						<option value="Utility Software">Utility Software</option>
+						<option value="System Software">System Software</option>
+					</select>
 				</div>
 			</fieldset>
+
 		</div>
 	</article>
 </form>

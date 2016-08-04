@@ -39,18 +39,22 @@
 		allButtons.click(e => {
 			e.preventDefault();
 
-			const width = $(e.target).css('width');
-			const height = $(e.target).css('height');
-			$(e.target).css({
-				'width': width,
-				'height': height
-			});
+			const target = $(e.target);
+			const width = target.css('width');
+			const height = target.css('height');
 
-			$(e.target).html('<i style="display: none;" class="icon icon-check">');
-
-			$(e.target).off();
-			$(e.target).find('i').fadeIn();
-
+			target
+				.css({
+					'width': width,
+					'height': height
+				})
+				.html('<i style="display: none;" class="icon icon-check">')
+				.off()
+				.click(event => {
+					event.preventDefault();
+				})
+				.find('i')
+				.fadeIn();
 		});
 	}
 

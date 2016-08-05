@@ -217,7 +217,7 @@
 
 			.form-group.required .control-label:after {
 			  content: "*";
-			  color: #F00;
+			  color: $color-required;
 			}
 
 			.form-submit {

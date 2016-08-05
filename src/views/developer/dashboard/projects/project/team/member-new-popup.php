@@ -63,7 +63,7 @@
 									</div>
 								</fieldset>
 
-								<hr>
+								<hr class="form-group">
 
 								<fieldset class="form-group form-submit">
 									<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Skip</a>

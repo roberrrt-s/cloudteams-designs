@@ -3,7 +3,7 @@
 
 	.form-group.required .control-label:after { 
 	   content:"*";
-	   color: #F00;
+	   color: $color-required;
 	}
 
 	.add-image-button {
@@ -37,7 +37,7 @@
 
 	.file-upload-image .icon {
 		position: relative;
-		color: #FFF;
+		color: $color-white;
 		font-size: 60px;
 	}
 
@@ -52,7 +52,7 @@
 	fieldset {
 		+ hr {
 			// Dirty, look at it later
-			min-width: 1000px;
+			min-width: 690px; // container width;
 			margin-left: -20px;
 		}
 	}

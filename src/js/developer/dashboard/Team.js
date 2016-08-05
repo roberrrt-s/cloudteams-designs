@@ -4,10 +4,9 @@
 	function confirmMessage() {
 		const subpageSection = $('#subpage-1');
 		const confirmButton = $('.confirm-button');
-		const contentSection = $('.subpage-wrapper > form > fieldset');
+		const contentSection = $('.subpage-wrapper .form-group');
 		const confirmSection = $('.confirm-wrapper');
 		const sendingSection = $('.sending-wrapper');
-		// const confirmSection = $('.confirm-section');
 
 		confirmButton.click(e => {
 			e.preventDefault();

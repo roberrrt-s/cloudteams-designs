@@ -21,7 +21,7 @@
 
 4. Change webpack.config.babel.js BrowserSyncPlugin for livereload
 
-	```json	
+	```javascript
 	new BrowserSyncPlugin(
 		{
 			host : 'localhost', 

@@ -73,7 +73,7 @@
 				</div>
 			</fieldset>
 
-			<fieldset class="fieldset-radio">
+			<fieldset class="form-group fieldset-radio">
 				<label for="visibility-project" class="header-medium secondary">Project visibility</label>
 
 				<div class="row">
@@ -86,7 +86,7 @@
 				</div>
 			</fieldset>		
 
-			<fieldset class="fieldset-upload">
+			<fieldset class="form-group fieldset-upload">
 				<label for="upload-project" class="header-medium secondary">Project picture</label>
 
 				<div class="row">
@@ -98,7 +98,7 @@
 										<div class="add-image-button">
 											<i class="icon icon-plus"></i>
 										</div>
-										Add picture
+										<p class="meta big">Add picture</p>
 									</div>
 								</div>
 							</label>
@@ -106,7 +106,14 @@
 						</div>
 					</div>
 				</div>
-			</fieldset>		
+			</fieldset>
+
+			<hr>
+
+			<fieldset class="form-group form-submit">
+				<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
+				<a href="#nowhere" class="btn confirm-button" alt="create">Create</a>
+			</fieldset>
 
 		</div>
 	</article>

@@ -7,22 +7,16 @@
 	}
 
 	.add-image-button {
-		margin: $margin-10;
-		width: 30px;
-		height: 30px;
+		width: 60px;
+		height: 60px;
 		border-radius: 50%;
-		background-color: $color-background-quaternary;
-	}
-
-	.file-upload-image .icon {
-		position: relative;
-		margin: -10px;
-		color: #FFF
+		margin: -4px auto $margin-10;
+		background-color: $color-soft-gray;
 	}
 
 	.fieldset-upload {
 		width: 400px;
-		height: 220px;
+		height: 230px;
 	}
 
 	.file-upload-image {
@@ -30,10 +24,37 @@
 		width: 400px;
 		height: 200px;
 		text-align: center;
+		cursor: pointer;
+		transition: background $transition-time-2 $easing-1;
+		transition: border $transition-time-2 $easing-1;
+
+		&:hover {
+			border: 3px solid $color-soft-gray;
+			background: $color-soft-gray;
+		}
+
+	}
+
+	.file-upload-image .icon {
+		position: relative;
+		color: #FFF;
+		font-size: 60px;
 	}
 
 	#file-upload {
 		display: none;
+	}
+
+	.form-submit {
+		text-align: right;
+	}
+
+	fieldset {
+		+ hr {
+			// Dirty, look at it later
+			min-width: 1000px;
+			margin-left: -20px;
+		}
 	}
 
 }

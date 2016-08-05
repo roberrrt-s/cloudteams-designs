@@ -241,7 +241,7 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<div class="input-container search-member-container">
-										<input value="Jen" id="new-member-name" type="text" name="Name of new team member" placeholder="Type a name">
+										<input class="input-search" value="Jen" id="new-member-name" type="text" name="Name of new team member" placeholder="Type a name">
 									</div>								
 								</div>
 								<div class="middle">

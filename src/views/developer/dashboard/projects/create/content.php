@@ -1,8 +1,8 @@
 <form id="create-project">
 	<article class="block-line large">
 		<div class="content form-section">
-			<fieldset>
-				<label for="name-project" class="header-medium secondary">Name</label>
+			<fieldset class="form-group required">
+				<label for="name-project" class="control-label header-medium secondary">Name</label>
 
 				<div class="input-container">
 					<input id="name-project" type="text" name="Name of project" placeholder="Project title">
@@ -17,9 +17,9 @@
 				</div>
 			</fieldset>
 
-			<fieldset>
+			<fieldset class="form-group required">
 
-				<label for="category-project" class="header-medium secondary">Category</label>
+				<label for="category-project" class="control-label header-medium secondary">Category</label>
 
 				<div class="select-dropdown">
 					<i class="icon icon-arrow-down"></i>
@@ -43,7 +43,7 @@
 
 			<fieldset>
 
-				<label for="type-project" class="header-medium secondary">Type</label>
+				<label for="type-project" class="header-medium secondary">Type of project</label>
 
 				<div class="select-dropdown">
 					<i class="icon icon-arrow-down"></i>
@@ -56,6 +56,57 @@
 					</select>
 				</div>
 			</fieldset>
+
+			<fieldset>
+				<label for="tags-project" class="header-medium secondary">Tags</label>
+
+				<div class="input-container">
+					<input type="text" id="tags-project" rows="5" placeholder="lorem, ipsum, dolor, sic, amit"></input>
+				</div>
+			</fieldset>
+
+			<fieldset class="form-group required">
+				<label for="team-name-project" class="control-label header-medium secondary">Team name</label>
+
+				<div class="input-container">
+					<input type="text" id="team-name-project" rows="5" placeholder="Name your team"></input>
+				</div>
+			</fieldset>
+
+			<fieldset class="fieldset-radio">
+				<label for="visibility-project" class="header-medium secondary">Project visibility</label>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="input-container">
+							<label for="visibility-private"><input type="radio" name="visibility" value='visibility-private' id="visibility-private" checked="checked" required><span></span>Private</label>		
+							<label for="visibility-public"><input type="radio" name="visibility" value='visibility-public' id="visibility-public"required><span></span>Public</label>
+						</div>
+					</div>
+				</div>
+			</fieldset>		
+
+			<fieldset class="fieldset-upload">
+				<label for="upload-project" class="header-medium secondary">Project picture</label>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="input-container">
+							<label class="file-upload-image" for="file-upload">
+								<div class="vertical-align">
+									<div class="middle">
+										<div class="add-image-button">
+											<i class="icon icon-plus"></i>
+										</div>
+										Add picture
+									</div>
+								</div>
+							</label>
+							<input type="file" name="file-upload" id="file-upload"/>
+						</div>
+					</div>
+				</div>
+			</fieldset>		
 
 		</div>
 	</article>

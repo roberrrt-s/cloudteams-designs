@@ -1,3 +1,39 @@
 #create-project {
-	margin-top: $margin-30;
+	margin: $margin-30 0;
+
+	.form-group.required .control-label:after { 
+	   content:"*";
+	   color: #F00;
+	}
+
+	.add-image-button {
+		margin: $margin-10;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: $color-background-quaternary;
+	}
+
+	.file-upload-image .icon {
+		position: relative;
+		margin: -10px;
+		color: #FFF
+	}
+
+	.fieldset-upload {
+		width: 400px;
+		height: 220px;
+	}
+
+	.file-upload-image {
+		border: 3px dotted $color-input-border;
+		width: 400px;
+		height: 200px;
+		text-align: center;
+	}
+
+	#file-upload {
+		display: none;
+	}
+
 }
